@@ -55,9 +55,9 @@ export default function Page(): JSX.Element {
       <div className={styles.description}>
         <p>
           examples/basic&nbsp;
-          <code className={styles.code}>docs</code>
+          <code className={styles.code}>docs</code><br/>
+          <ButtonComponent title="Hi from docs" />
         </p>
-        <ButtonComponent title="Hi from docs" />
         <div>
           <a
             href="https://vercel.com?utm_source=create-turbo&utm_medium=basic&utm_campaign=create-turbo"
