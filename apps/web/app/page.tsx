@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Card } from "ui";
+import { ButtonComponent, Card } from "ui";
 import styles from "./page.module.css";
 
 function Gradient({
@@ -57,6 +57,7 @@ export default function Page(): JSX.Element {
           examples/basic&nbsp;
           <code className={styles.code}>web</code>
         </p>
+        <ButtonComponent title="Hi from web" />
         <div>
           <a
             href="https://vercel.com?utm_source=create-turbo&utm_medium=basic&utm_campaign=create-turbo"
